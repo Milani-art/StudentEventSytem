@@ -1,19 +1,20 @@
 package za.ac.cput.factory;
 
-import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.Ticket;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 public class TicketFactoryTest {
 
     @Test
     public void testCreateTicket() {
+
         Ticket ticket = TicketFactory.createTicket(
-        "B001",
-        "VIP",
-        150.0,
-        "A12"
-     );
+                "B001",
+                "VIP",
+                150.0,
+                "A12"
+        );
 
         assertNotNull(ticket);
         assertNotNull(ticket.getTicketId());
@@ -25,15 +26,14 @@ public class TicketFactoryTest {
 
     @Test
     public void testCreateTicketFail() {
+
         Ticket ticket = TicketFactory.createTicket(
-                "",
+                "",   // invalid bookingId
                 "VIP",
                 150.0,
                 "A12"
         );
 
         assertNull(ticket);
-
     }
-
 }
