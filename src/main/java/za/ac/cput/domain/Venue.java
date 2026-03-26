@@ -1,5 +1,6 @@
 package za.ac.cput.domain;
-
+/*Author Angelia Van der Westhuizen
+221420649 */
 public class Venue {
 
     private String venueId;
