@@ -1,7 +1,7 @@
-/* Nuyra Swanson: 221290524 */
-
 package za.ac.cput.factory;
 
+/*Author Ayren Villet
+* 223120030*/
 import za.ac.cput.domain.Student;
 
 public class StudentFactory {

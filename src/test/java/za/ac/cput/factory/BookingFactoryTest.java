@@ -1,5 +1,8 @@
 package za.ac.cput.factory;
 
+/*Author Jada Rinquest
+222871296 */
+
 import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.Booking;
 
