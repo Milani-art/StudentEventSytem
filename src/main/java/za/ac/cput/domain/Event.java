@@ -1,6 +1,6 @@
 package za.ac.cput.domain;
 /* Milani Sani : 230371574
-* 25 March 2026*/
+ * 25 March 2026*/
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -57,5 +57,4 @@ public class Event {
         public Event build() { return new Event(this); }
     }
 }
-
 /* Milani Sani EventDomain*/
